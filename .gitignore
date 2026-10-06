@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Render intermediates
+stills/
+frames/
+tmp/
+temp/
+pre-polish.mp4
+*music-sync-preview*.mp4
+
+# Generated assets (rebuild locally)
+assets/build/
+
+# Licensed music — keep local, do not redistribute from this public repo
+assets/audio/*.mp3
+assets/audio/*.wav
+assets/audio/*.aif
+assets/audio/*.aiff
+
+# Editor / tooling
+.vscode/
+.idea/
+
+# Misc
+*.log
